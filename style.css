@@ -31,3 +31,118 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #25133d;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    font-weight: bold;
+}
+
+.superappka a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hlavicka {
+    background-image: url(images/pozadi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.prava {
+    flex: 1 1 40%;
+    padding-top: 30px;
+    align-self: flex-end;
+}
+
+.leva {
+    flex: 1 1 55%;
+}
+
+.nazev {
+    margin: 0;
+    padding: 20px 30px;
+    font-size: 80px;
+    color: white;
+    font-weight: normal;
+}
+
+.hlavicka p {
+    font-size: 45px;
+    color: white;
+    padding: 0 30px 20px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.tlacitko1,
+.tlacitko2 {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tlacitka a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.tlacitka a:hover,
+.tlacitka a:focus,
+.tlacitka a:active {
+    background-color: #25133d;
+}
+
+.prehled {
+    display: flex;
+    padding: 30px 30px;
+    justify-content: center;
+}
+
+.prehled img {
+    height: 50px;  
+}
+
+.prehled h2 {
+    font-size: 16px;
+    color: #48418e;
+}
+
+.cestuj,
+.chatuj,
+.zazij {
+    text-align: center;
+}
+
+.paticka {
+    background-color:#48418e;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 1px 0;
+}
